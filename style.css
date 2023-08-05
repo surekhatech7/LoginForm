@@ -1,0 +1,95 @@
+ .myContainer {
+     height: 400px;
+     width: 600px;
+     margin-top: 90px;
+     background-image: url(img/background.jpg);
+ }
+ 
+ .myColumn4 {
+     margin-left: 10px;
+     margin-top: 80px;
+ }
+ 
+ .myColumn8 {
+     margin-top: 30px;
+ }
+ 
+ .inputBox {
+     margin-top: 30px;
+     width: 350px;
+ }
+ 
+ .inputBox1 {
+     margin-top: 30px;
+     width: 350px;
+ }
+ 
+ .checkbox {
+     margin-top: 30px;
+     color: white;
+ }
+ 
+ .buttonClass {
+     margin-top: 20px;
+     display: inline-block;
+     margin-right: 12px;
+ }
+ 
+ .myButton {
+     width: 260px;
+ }
+ 
+ .buttonClass1 {
+     margin-top: 20px;
+     display: inline-block;
+ }
+ 
+ .myLink {
+     margin-top: 30px;
+     text-decoration-line: underline;
+ }
+ 
+ @media (max-width: 990px) {
+     .myContainer {
+         height: 500px;
+         width: 280px;
+         margin-top: 20px;
+         background-image: url(img/background.jpg);
+     }
+     .myColumn4 {
+         margin-left: 70px;
+         height: 100px;
+         width: 160px;
+     }
+     .inputBox {
+         width: 220px;
+         margin-left: 30px;
+     }
+     .inputBox1 {
+         width: 220px;
+         margin-left: 30px;
+     }
+     .checkbox {
+         margin-left: 30px;
+     }
+     .buttonClass {
+         display: inline-block;
+         margin-left: 30px;
+     }
+     .myButton {
+         width: 140px;
+     }
+     .buttonClass1 {
+         display: inline-block;
+     }
+     .myButton1 {
+         width: 60px;
+     }
+     .link {
+         margin-left: 30px;
+     }
+ }
+ 
+ .cls {
+     color: white;
+ }
